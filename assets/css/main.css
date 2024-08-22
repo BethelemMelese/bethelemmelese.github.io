@@ -298,7 +298,31 @@ h1.major {
   padding-bottom: 0.35em;
 }
 
+h2.major {
+  margin: 0 0 1.3em 0;
+  position: relative;
+  padding-bottom: 0.35em;
+}
+
 h1.major:after {
+  background-image: -moz-linear-gradient(to right, #ee8383, #6206069e);
+  background-image: -webkit-linear-gradient(to right, #ee8383, #6206069e);
+  background-image: -ms-linear-gradient(to right, #ee8383, #6206069e);
+  background-image: linear-gradient(to right, #ee8383, #6206069e);
+  -moz-transition: max-width 0.2s ease;
+  -webkit-transition: max-width 0.2s ease;
+  -ms-transition: max-width 0.2s ease;
+  transition: max-width 0.2s ease;
+  border-radius: 0.2em;
+  bottom: 0;
+  content: "";
+  height: 0.05em;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+h2.major:after {
   background-image: -moz-linear-gradient(to right, #ee8383, #6206069e);
   background-image: -webkit-linear-gradient(to right, #ee8383, #6206069e);
   background-image: -ms-linear-gradient(to right, #ee8383, #6206069e);
@@ -2294,7 +2318,7 @@ button:hover:active:after,
     border-top-width: 0 !important;
   }
 
-  .skill-group{
+  .skill-group {
     display: block;
     justify-content: center;
     align-items: center;
@@ -2635,6 +2659,10 @@ input[type="radio"] + label:before {
 
 .icon.major:before {
   font-size: 1.25em;
+}
+
+.wrapper {
+  background-color: #860b0b9e;
 }
 
 .wrapper.style1 .icon.major:before {
@@ -3302,6 +3330,10 @@ table.alt tfoot {
   width: 75em;
 }
 
+.prj > .inner h2 {
+  font-size: 40px;
+}
+
 @media screen and (max-width: 1680px) {
   .wrapper > .inner {
     padding: 4em 4em 2em 4em;
@@ -3451,7 +3483,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #a8123c;
+  background-color: #6206069e;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3553,6 +3585,12 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 @media screen and (max-width: 736px) {
+  #sidebar + #wrapper {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
   #sidebar + #wrapper {
     padding-top: 0;
   }
@@ -3966,5 +4004,37 @@ body.is-preload #sidebar nav ul li {
 @media screen and (max-width: 1280px) {
   #intro {
     background-attachment: scroll;
+  }
+}
+
+/* detail */
+.inner h3 {
+  margin-bottom: 20px;
+}
+.project {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.project-item {
+  margin-bottom: 10%;
+  margin-left: 30px;
+  color: var(--text-second-color);
+  float: left;
+  width: 80%;
+  background-color: #e8e3e314;
+}
+
+@media screen and (max-width: 980px) {
+  .project {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .project {
+    display: block;
   }
 }
