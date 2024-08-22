@@ -3591,9 +3591,9 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 @media screen and (max-width: 600px) {
-  #sidebar + #wrapper {
+  /* #sidebar + #wrapper {
     padding-top: 0;
-  }
+  } */
 }
 
 #header + #wrapper > .wrapper > .inner {
@@ -3909,9 +3909,25 @@ body.is-preload #sidebar nav ul li {
   opacity: 0;
 }
 
+.hamburger {
+  display: none;
+  margin-left: -80%;
+  margin-top: 20px;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 6px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
 @media screen and (max-width: 1280px) {
   #sidebar {
-    height: 3.5em;
+    height: 4.5em;
     left: 0;
     line-height: 3.5em;
     overflow: hidden;
@@ -3970,8 +3986,28 @@ body.is-preload #sidebar nav ul li {
 }
 
 @media screen and (max-width: 736px) {
+  #wrapper{
+    margin-top: 10%;
+  }
   #sidebar {
-    display: none;
+    height: 5.5em;
+    left: 0;
+    line-height: 3.5em;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+  }
+
+  #sidebar > .inner {
+    /* margin-left: -10px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+  }
+
+  #sidebar nav{
+    margin-top: 10px;
   }
 }
 
@@ -4047,6 +4083,7 @@ body.is-preload #sidebar nav ul li {
   .avatar {
     width: 50px;
     height: 50px;
+    margin-top: 10px;
   }
 }
 
@@ -4058,6 +4095,7 @@ body.is-preload #sidebar nav ul li {
   .avatar {
     width: 50px;
     height: 50px;
+    margin-top: 10px;
   }
 }
 
@@ -4066,7 +4104,7 @@ body.is-preload #sidebar nav ul li {
     width: 50px;
     height: 50px;
     margin-right: 50px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 }
 
