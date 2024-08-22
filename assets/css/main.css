@@ -4069,3 +4069,27 @@ body.is-preload #sidebar nav ul li {
     margin-top: 5px;
   }
 }
+
+/* for scrollable style */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8d8d8b0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b21c1c9e;
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #504e40;
+}
