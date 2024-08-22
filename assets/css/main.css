@@ -180,7 +180,7 @@ html {
 }
 
 body {
-  background: #03012bd5;
+  background: #500123c5;
 }
 
 body.is-preload *,
@@ -305,10 +305,10 @@ h2.major {
 }
 
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #ee8383, #6206069e);
-  background-image: -webkit-linear-gradient(to right, #ee8383, #6206069e);
-  background-image: -ms-linear-gradient(to right, #ee8383, #6206069e);
-  background-image: linear-gradient(to right, #ee8383, #6206069e);
+  background-image: -moz-linear-gradient(to right, #ee838e, #6206129e);
+  background-image: -webkit-linear-gradient(to right, #ee838e, #6206129e);
+  background-image: -ms-linear-gradient(to right, #ee838e, #6206129e);
+  background-image: linear-gradient(to right, #ee838e, #6206129e);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -323,10 +323,10 @@ h1.major:after {
 }
 
 h2.major:after {
-  background-image: -moz-linear-gradient(to right, #ee8383, #6206069e);
-  background-image: -webkit-linear-gradient(to right, #ee8383, #6206069e);
-  background-image: -ms-linear-gradient(to right, #ee8383, #6206069e);
-  background-image: linear-gradient(to right, #ee8383, #6206069e);
+  background-image: -moz-linear-gradient(to right, #ee838e, #6206129e);
+  background-image: -webkit-linear-gradient(to right, #ee838e, #6206129e);
+  background-image: -ms-linear-gradient(to right, #ee838e, #6206129e);
+  background-image: linear-gradient(to right, #ee838e, #6206129e);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -2662,31 +2662,31 @@ input[type="radio"] + label:before {
 }
 
 .wrapper {
-  background-color: #860b0b9e;
+  background-color: #860b2e9e;
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #6206069e;
+  color: #6206239e;
 }
 
 .wrapper.style1-alt .icon.major:before {
-  color: #6206069e;
+  color: #6206239e;
 }
 
 .wrapper.style2 .icon.major:before {
-  color: #860b0b9e;
+  color: #860b369e;
 }
 
 .wrapper.style2-alt .icon.major:before {
-  color: #860b0b9e;
+  color: #860b369e;
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #b21c1c9e;
+  color: #b21c4e9e;
 }
 
 .wrapper.style3-alt .icon.major:before {
-  color: #b21c1c9e;
+  color: #b21c4e9e;
 }
 
 /* Image */
@@ -3639,7 +3639,8 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #0b0000;
+  background: #2b010cfa;
+  /* background: #00000091; */
   cursor: default;
   height: 100vh;
   left: 0;
