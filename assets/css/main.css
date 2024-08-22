@@ -1,11 +1,4 @@
 @import url(fontawesome-all.min.css);
-
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -187,7 +180,7 @@ html {
 }
 
 body {
-  background: #2b010bd5;
+  background: #03012bd5;
 }
 
 body.is-preload *,
@@ -3572,7 +3565,6 @@ body.is-preload .wrapper.fade > .inner {
 
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.15);
 }
 
 #header + #wrapper + #footer > .inner {
