@@ -2085,17 +2085,17 @@ button:hover:active:after,
 }
 
 .features section {
-  padding: 3.5em 3em 1em 7em;
-  width: 50%;
+  padding: 2.5em 3em 1em 7em;
+  width: 100%;
   border-top: solid 1px rgba(255, 255, 255, 0.15);
   position: relative;
 }
 
-.features section:nth-child(-n + 2) {
+.features section:nth-child(-n + 1) {
   border-top-width: 0;
 }
 
-.features section:nth-child(2n) {
+.features section:nth-child(1n) {
   border-left: solid 1px rgba(255, 255, 255, 0.15);
 }
 
@@ -2266,6 +2266,19 @@ button:hover:active:after,
   opacity: 0;
 }
 
+.skill-group {
+  display: block;
+  margin: 20px;
+}
+
+.skill-group .skill-item {
+  display: flex;
+}
+
+.skill-group .skill-item h4 {
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 980px) {
   .features {
     display: block;
@@ -2279,6 +2292,12 @@ button:hover:active:after,
 
   .features section:first-child {
     border-top-width: 0 !important;
+  }
+
+  .skill-group{
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
 }
 
