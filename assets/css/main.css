@@ -3572,10 +3572,6 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 /* Wrapper (main) */
-#intro {
-  margin-top: 50px;
-}
-
 #sidebar + #wrapper {
   margin-left: 18em;
 }
@@ -3588,12 +3584,20 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 @media screen and (max-width: 736px) {
+  #intro {
+    margin-top: 50px;
+  }
+
   #sidebar + #wrapper {
     padding-top: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
+  #intro {
+    margin-top: 50px;
+  }
+
   /* #sidebar + #wrapper {
     padding-top: 0;
   } */
