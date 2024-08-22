@@ -4001,9 +4001,7 @@ body.is-preload #sidebar nav ul li {
   }
 
   #sidebar > .inner {
-    /* margin-left: -10px; */
-    /* display: flex; */
-    /* justify-content: space-between; */
+    margin-right: -30px;
   }
 
   #sidebar nav{
@@ -4093,9 +4091,7 @@ body.is-preload #sidebar nav ul li {
   }
 
   .avatar {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
+    display: none;
   }
 }
 
