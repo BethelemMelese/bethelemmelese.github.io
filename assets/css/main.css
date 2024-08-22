@@ -4027,14 +4027,45 @@ body.is-preload #sidebar nav ul li {
   background-color: #e8e3e314;
 }
 
+.about-avatar-image {
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
 @media screen and (max-width: 980px) {
   .project {
     display: block;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
   }
 }
 
 @media screen and (max-width: 736px) {
   .project {
     display: block;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
   }
 }
