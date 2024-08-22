@@ -3325,7 +3325,7 @@ table.alt tfoot {
 }
 
 .wrapper > .inner {
-  padding: 5em 5em 3em 5em;
+  padding: 10em 10em 5em 10em;
   max-width: 100%;
   width: 75em;
 }
@@ -3572,6 +3572,9 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 /* Wrapper (main) */
+#intro {
+  margin-top: 50px;
+}
 
 #sidebar + #wrapper {
   margin-left: 18em;
@@ -3986,25 +3989,11 @@ body.is-preload #sidebar nav ul li {
 }
 
 @media screen and (max-width: 736px) {
-  #wrapper{
-    margin-top: 10%;
-  }
-  #sidebar {
-    height: 5.5em;
-    left: 0;
-    line-height: 3.5em;
-    overflow: hidden;
-    padding: 5px;
-    text-align: center;
-    top: 0;
-    width: 100%;
-  }
-
   #sidebar > .inner {
     margin-right: -30px;
   }
 
-  #sidebar nav{
+  #sidebar nav {
     margin-top: 10px;
   }
 }
