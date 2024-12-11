@@ -3129,6 +3129,7 @@ header h6 + p {
   -ms-flex-direction: row;
   flex-direction: row;
   min-height: 15em;
+  padding: 20px;
 }
 
 body.is-ie .spotlights > section {
