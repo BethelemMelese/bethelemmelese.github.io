@@ -3139,17 +3139,17 @@ body.is-ie .spotlights > section {
 .spotlights > section > .image {
   background-position: center center;
   background-size: cover;
-  border-radius: 0;
+  border-radius: 10px;
   display: block;
   position: relative;
   width: 35em;
+  height: 20em;
 }
 
 .spotlights > section > .image img {
-  border-radius: 0;
+  border-radius: 10px;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 80%;
 }
 
 .spotlights > section > .image:before {
@@ -3160,12 +3160,12 @@ body.is-ie .spotlights > section {
   background: #4b1b1bd1;
   content: "";
   display: block;
-  height: 100%;
+  height: 80%;
   left: 0;
   opacity: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  /* width: 200%; */
 }
 
 .spotlights > section > .content {
